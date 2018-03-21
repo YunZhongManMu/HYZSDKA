@@ -22,9 +22,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/YunZhongManMu/HYZSDKA.git", :tag => "#{s.version}" }
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.vendored_frameworks = "Frameworks/HYZSDKA.framework"
-  s.resource = "Resources/HYZResource.bundle"
+  
   s.exclude_files = "Classes/Exclude"
+
+  s.vendored_frameworks = "Frameworks/HuiYiZhanSDK.framework"
+  s.resources = "Resource/HYZResource.bundle"
 
   # s.public_header_files = "Classes/**/*.h"
 

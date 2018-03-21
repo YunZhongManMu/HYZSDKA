@@ -1,6 +1,0 @@
-framework module HuiYiZhanSDK {
-  umbrella header "HuiYiZhanSDK.h"
-
-  export *
-  module * { export * }
-}
