@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HYZSDKA"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "上传.framework静态库到cocoapods"
 
   # s.description  = <<-DESC
@@ -68,5 +68,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+
 
 end
